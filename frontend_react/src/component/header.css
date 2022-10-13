@@ -1,0 +1,23 @@
+.Header {
+  background-color: white;
+  width: 95vw;
+  height: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:none;
+  border-radius: 5px;
+  position: fixed;
+  top: 0px;
+}
+
+.hiddenHeader {
+  height: 9vw;
+}
+.headtext {
+  flex-grow: 3;
+  font-family: 'Pacifico', cursive;
+  font-size: 5vw;
+  text-align: start;
+  padding-left: 5vw;
+}

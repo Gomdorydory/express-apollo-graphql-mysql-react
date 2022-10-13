@@ -1,0 +1,75 @@
+
+
+.FeedHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3vw;
+  background-color: white;
+  border-top : solid 2px rgb(199, 191, 191);
+  border-radius: 5px;
+  width: 89vw;
+}
+
+.profilePicture {
+  border:none;
+  border-radius: 50%;
+  width : 10vw;
+  height: 10vw;
+  background-color: rgb(131, 83, 83);
+  margin-right: 5vw;
+}
+
+.empty {
+  flex-grow: 5;
+}
+
+.userId {
+  font-weight: bold;
+  line-height: 10vw;
+  font-size: 4vw;
+}
+
+.more {
+  text-align: end;
+  font-weight: bolder;
+  line-height: 6vw;
+  font-size: 5vw;
+  cursor: pointer;
+}
+
+
+/* 피드 사진 */
+.FeedPicture {
+  background-color: rgb(158, 116, 116);
+  height: auto;
+  width: 95vw;
+}
+
+.FeedReact {
+  display: flex;
+  background-color: white;
+  width: 95vw;
+}
+
+.Feedcontent {
+  font-size: 4vw;
+  background-color : white;
+  text-align: start;
+  padding: 0 3vw 3vw 3vw;
+  white-space: pre-line;
+  width:89vw;
+}
+
+.userIdInContent {
+  margin-right: 3vw;
+  font-weight: bolder;
+}
+
+.Feedfooter {
+  background-color: white;
+  text-align: start;
+  padding: 0 3vw 3vw 3vw;
+  color:gray;
+  font-size: 3vw;
+}

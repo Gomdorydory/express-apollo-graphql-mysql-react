@@ -1,0 +1,11 @@
+type Query {
+    feed : [Onefeed]
+}
+
+type Onefeed {
+    id: Int!,
+    user: String!,
+    pic: String,
+    content: String!,
+    date: String!
+}
