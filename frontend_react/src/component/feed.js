@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+// graphql 모듈
 import { useQuery, gql } from "@apollo/client";
 import { FeedStateContext } from "../App";
 
@@ -12,8 +13,6 @@ import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 const Heart = <FontAwesomeIcon icon={faHeart} />;
 const Comment = <FontAwesomeIcon icon={faComment} />;
 const PaperPlane = <FontAwesomeIcon icon={faPaperPlane} />;
-
-// graphql 모듈
 
 // gql example
 const querydata = gql`
